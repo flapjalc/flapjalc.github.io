@@ -1,0 +1,1 @@
+var buttonFeedback=document.querySelector(".button__feedback"),modal=document.querySelector(".modal"),buttonClose=document.querySelector(".modal__close");buttonFeedback.addEventListener("click",function(e){e.preventDefault(),modal.classList.add("modal--show")}),buttonClose.addEventListener("click",function(e){e.preventDefault(),modal.classList.remove("modal--show")});
