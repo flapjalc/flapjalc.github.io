@@ -1,0 +1,3 @@
+User-agent: *
+Host: s89583.lpmotortest.com
+Sitemap: http://s89583.lpmotortest.com/sitemap.xml
