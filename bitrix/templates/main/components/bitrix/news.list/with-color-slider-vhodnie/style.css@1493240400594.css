@@ -1,0 +1,30 @@
+.es13__pict_slider img {
+    max-height: 100%;
+}
+.swiper-container.slider-item {
+    height: 100%;
+    width: 100%;
+}
+.pag-item.swiper-pagination {
+    position: static;
+}
+.pag-item .swiper-pagination-bullet {
+    height: auto;
+    border-radius: 0;
+    opacity: 1;
+    background-color: transparent;
+}
+.pag-item .swiper-pagination-bullet-active {
+    background-color: transparent;
+}
+.es13__pict_slider {
+    height: 435px;
+}
+
+.es13_x {
+    font-size: 20px;
+    font-family: "Exo 2.0 Bold",sans-serif;
+}
+.swiper-pagination-bullet-active.es13__tub .es13__tub_pict{
+    border-color: #fbc102;
+}
