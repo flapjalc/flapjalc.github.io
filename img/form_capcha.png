@@ -315,7 +315,7 @@
             Укажите Ваше имя и телефон и <span class="red">получите самую низкую цену</span>
         </div>
         <div class="b-form__block">
-            <form name="SIMPLE_FORM_11" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="13" /><input type="hidden" name="lang" value="ru" /> <form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Хочу дешевле" type="hidden" /> 
+            <form name="SIMPLE_FORM_11" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="13" /><input type="hidden" name="lang" value="ru" /> <form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Хочу дешевле" type="hidden" /> 
   <div class="form-group _name"><input type="text" class="form-control" placeholder="Имя" id="form_text_1" data-field="name" name="form_text_26" value="" size="0" /> </div>
  <input name="web_form_apply" value="Y" type="hidden" /> 
   <div class="form-group _phone"> <input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_2"  data-field="phone" name="form_text_27" value="" size="0" /><input type="hidden" data-field="door_price_input" name="form_hidden_37" value="" /><input type="hidden" data-field="door_page_input" name="form_hidden_38" value="" /><input type="hidden"  name="form_hidden_39" value="" /><input type="hidden"  name="form_hidden_40" value="" /><input type="hidden" data-field="door_color_input" name="form_hidden_36" value="" /><input type="hidden" data-field="door_name_input" data-field="text" name="form_hidden_41" value="" /><input type="hidden" data-field="comagic" name="form_hidden_85" value="" /></div>
@@ -342,7 +342,7 @@
             Укажите Ваше имя и телефон и <span class="red">получите самую низкую цену</span>
         </div>
         <div class="b-form__block">
-            <form name="ORDER_IMPLEMENT" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_1" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="22" /><input type="hidden" name="lang" value="ru" /> <form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Хочу дешевле" type="hidden" /> 
+            <form name="ORDER_IMPLEMENT" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_1" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="22" /><input type="hidden" name="lang" value="ru" /> <form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Хочу дешевле" type="hidden" /> 
   <div class="form-group _name"><input type="text" class="form-control" placeholder="Имя" id="form_text_1" data-field="name" name="form_text_69" value="" size="0" /> </div>
  <input name="web_form_apply" value="Y" type="hidden" /> 
   <div class="form-group _phone"> <input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_2"  data-field="phone" name="form_text_70" value="" size="0" /><input type="hidden" data-field="door_price_input" name="form_hidden_72" value="" /><input type="hidden" data-field="door_page_input" name="form_hidden_73" value="" /><input type="hidden" data-field="door_color_input" name="form_hidden_71" value="" /><input type="hidden" data-field="door_name_input" data-field="text" name="form_hidden_76" value="" /><input type="hidden" data-field="comagic" name="form_hidden_86" value="" /></div>
@@ -367,7 +367,7 @@
             Впишите свой телефон и мы предложим Вам <span class="red">список подарков на выбор</span>
         </div>
         <div class="b-form__block">
-            <form name="SIMPLE_FORM_12" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_2" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="14" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> 	 <input name="comagic" value="Вам подарок" type="hidden" /> 			 
+            <form name="SIMPLE_FORM_12" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_2" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="14" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> 	 <input name="comagic" value="Вам подарок" type="hidden" /> 			 
   <div class="form-group _phone"> 	<input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон" data-field="phone"  name="form_text_28" value="" size="0" /><input type="hidden" data-field="comagic" name="form_hidden_87" value="" />			</div>
  <input name="web_form_apply" value="Y" type="hidden" /> <button type="submit" class="btn">получить подарок</button> 
   <div class="result"> 				</div>
@@ -414,7 +414,7 @@
             </div>
         </div>
         <div class="b-form__block">
-            <form name="SIMPLE_FORM_15" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_3" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="16" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Вызвать замерщика" type="hidden" /> 				 
+            <form name="SIMPLE_FORM_15" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_3" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="16" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> <input name="comagic" value="Вызвать замерщика" type="hidden" /> 				 
   <div class="form-group _phone"> <input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон"  data-field="phone" name="form_text_30" value="" size="0" /><input type="hidden" data-field="comagic" name="form_hidden_89" value="" /><input name="web_form_apply" value="Y" type="hidden" /> 				</div>
  				 
   <div class="b-form_btn"> <button type="submit" class="btn">Записаться</button></div>
@@ -442,7 +442,7 @@
                 Введите Ваш номер телефона - <br>
                 мы перезвоним и все расскажем.
             </div>
-            <form name="SIMPLE_FORM_14" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_4" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="15" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> 	 <input name="comagic" value="Вы уже были у нас" type="hidden" /> 			 
+            <form name="SIMPLE_FORM_14" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_4" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="15" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> 	 <input name="comagic" value="Вы уже были у нас" type="hidden" /> 			 
   <div class="form-group _phone"><input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон"  data-field="phone" name="form_text_29" value="" size="0" /><input type="hidden" data-field="comagic" name="form_hidden_88" value="" /> <input name="web_form_apply" value="Y" type="hidden" /> 				</div>
  				 
   <div class="b-form_btn"> <button type="submit" class="btn">Заказать звонок</button></div>
@@ -538,7 +538,7 @@
             Укажите Ваш телефон и мы перезвоним Вам для вручения приза
         </div>
         <div class="b-form__block">
-            <form name="SIMPLE_FORM_16" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_5" value="06e61d5cfe340452f3bccb4687e3e1df" /><input type="hidden" name="WEB_FORM_ID" value="17" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> <input name="web_form_apply" value="Y" type="hidden" /> <input name="comagic" value="Ночью дешевле" type="hidden" />				 
+            <form name="SIMPLE_FORM_16" action="/img/form_capcha.png" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_5" value="6fe99c735a95eb19989997d69e9207aa" /><input type="hidden" name="WEB_FORM_ID" value="17" /><input type="hidden" name="lang" value="ru" /><form action="" class="b-ajaxform" method="post"> <input name="web_form_apply" value="Y" type="hidden" /> <input name="comagic" value="Ночью дешевле" type="hidden" />				 
   <div class="form-group _phone"><input type="text" class="form-control input-phone" data-validation="required" placeholder="Ваш телефон"  data-field="phone" name="form_text_31" value="" size="0" />	<input type="hidden" class="loto-present-field" name="form_hidden_32" value="" /> 			</div>
  				 
   <div class="b-form_btn"> <button type="submit" class="btn">получить приз</button> 				</div>
@@ -560,7 +560,7 @@
         <div class="b-fixed__block">
           <div class="b-fixed__item b-fixed__time">Сегодня 
 <span>
- 03.12.19</span>
+ 05.12.19</span>
 </div>
             <div class="b-fixed__item media-hide-2"><i class="icon fixed"></i></div>
           <div class="b-fixed__item media-hide-3">
@@ -627,7 +627,7 @@
 <!-- Google  -->
 <!-- Google end --><script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
 <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1575398318','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'06e61d5cfe340452f3bccb4687e3e1df'});</script><script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main/kernel_main.js?1561008653268079"></script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1575567748','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'6fe99c735a95eb19989997d69e9207aa'});</script><script type="text/javascript" src="/bitrix/cache/js/s1/main/kernel_main/kernel_main.js?1561008653268079"></script>
 <script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?149133960070993','/bitrix/js/main/core/core_ajax.js?149133960020978','/bitrix/js/main/json/json2.min.js?14913396003467','/bitrix/js/main/core/core_ls.js?14913396007365','/bitrix/js/main/session.js?14913396002511','/bitrix/js/main/core/core_window.js?149133960074917','/bitrix/js/main/core/core_popup.js?149133960031170','/bitrix/js/main/core/core_date.js?149133960034276','/bitrix/js/main/utils.js?149133960019858','/js/jquery-1.11.3.min.js?149133960095992','/js/jquery-migrate-1.2.1.min.js?14913396007199','/js/jquery.easing-1.3.js?14913396008097','/js/jquery.roundabout.min.js?149816520017958','/js/jquery.roundabout-shapes.min.js?14981652004281','/js/custom.js?1494536400712','/bitrix/templates/main/js/bootstrap.min.js?15093972006725','/bitrix/templates/main/js/functions.js?1509483600804','/bitrix/templates/main/js/for_comagic.js?1554130440704']); </script>
 
 
