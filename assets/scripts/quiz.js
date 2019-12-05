@@ -7,6 +7,35 @@
 
 let i = 0;
 let index1 = 0;
+let index;
+
+const btnStep1 = document.querySelector(".quiz__btn--step1");
+const btnStep2 = document.querySelectorAll(".quiz__btn--step2");
+const btnStep3 = document.querySelectorAll(".quiz__btn--step3");
+const btnStep4 = document.querySelectorAll(".quiz__btn--step4");
+const btnStep5 = document.querySelectorAll(".quiz__btn--step5");
+const btnStep6 = document.querySelectorAll(".quiz__btn--step6");
+const btnStep7 = document.querySelectorAll(".quiz__btn--step7");
+const btnResult = document.querySelector(".quiz__btn--result");
+
+const options1 = document.querySelectorAll(".quiz__select--1");
+const options2 = document.querySelectorAll(".quiz__select--2");
+const options3 = document.querySelectorAll(".quiz__select--3");
+const options4 = document.querySelector(".quiz__select--4");
+const options5 = document.querySelectorAll(".quiz__select--5");
+const options6 = document.querySelectorAll(".quiz__select--6");
+const options7 = document.querySelectorAll(".quiz__select--7");
+
+const step2 = document.querySelector(".quiz__step--2");
+const step3 = document.querySelector(".quiz__step--3");
+const step4 = document.querySelector(".quiz__step--4");
+const step5 = document.querySelector(".quiz__step--5");
+const step6 = document.querySelector(".quiz__step--6");
+const step7 = document.querySelector(".quiz__step--7");
+
+const screen1 = document.querySelector(".quiz__screen1");
+const screen2 = document.querySelector(".quiz__screen2");
+const screen3 = document.querySelector(".quiz__screen3");
 
 function start(btn, step, items) {
   items.forEach(item => {
@@ -15,11 +44,9 @@ function start(btn, step, items) {
       if(!item.classList.contains('checked')) {
         i += 1;
         item.classList.add('checked')
-        console.log('Элемент выбран')
       } else {
         i -= 1;
         item.classList.remove('checked')
-        console.log('"Элемент не выбран')
         btn.setAttribute("disabled", "disabled");
       }
 
@@ -38,11 +65,11 @@ function start(btn, step, items) {
 function nextStep4(btn, step, item) {
   item.addEventListener('input', function(){
 
-    if(item.value !== '') {
-      console.log('Элемент выбран')
-      return btn.removeAttribute("disabled");
+    if(item.value !== " ") {
+      console.log('Работает')
+      btn.removeAttribute("disabled");
     } else {
-      console.log('"Элемент не выбран')
+      console.log('Не работает')
       btn.setAttribute("disabled", "disabled");
     }
   })
@@ -58,7 +85,6 @@ function nextStep(btn, step, items) {
     item.addEventListener('click', function(){
 
       if(item) {
-        console.log('Элемент выбран')
         btn.removeAttribute("disabled");
 
         if(item.classList.contains('screen1')) {
@@ -67,21 +93,17 @@ function nextStep(btn, step, items) {
 
         if(item.classList.contains('screen2')) {
           index = 2;
-          console.log('Второй экран')
         }
 
         if(item.classList.contains('screen3')) {
           index = 3;
-          console.log('Третий экран')
         }
 
         if(items == options7) {
-          console.log('Это последний экран!')
           showScreen(btn)
         }
 
       } else {
-        console.log('"Элемент не выбран')
         btn.setAttribute("disabled", "disabled");
       }
     })
@@ -118,35 +140,6 @@ function prevStep(btn, step) {
   })
 }
 
-let index;
-
-const btnStep1 = document.querySelector(".quiz__btn--step1");
-const btnStep2 = document.querySelectorAll(".quiz__btn--step2");
-const btnStep3 = document.querySelectorAll(".quiz__btn--step3");
-const btnStep4 = document.querySelectorAll(".quiz__btn--step4");
-const btnStep5 = document.querySelectorAll(".quiz__btn--step5");
-const btnStep6 = document.querySelectorAll(".quiz__btn--step6");
-const btnStep7 = document.querySelectorAll(".quiz__btn--step7");
-const btnResult = document.querySelector(".quiz__btn--result");
-
-const options1 = document.querySelectorAll(".quiz__select--1");
-const options2 = document.querySelectorAll(".quiz__select--2");
-const options3 = document.querySelectorAll(".quiz__select--3");
-const options4 = document.querySelector(".quiz__select--4");
-const options5 = document.querySelectorAll(".quiz__select--5");
-const options6 = document.querySelectorAll(".quiz__select--6");
-const options7 = document.querySelectorAll(".quiz__select--7");
-
-const step2 = document.querySelector(".quiz__step--2");
-const step3 = document.querySelector(".quiz__step--3");
-const step4 = document.querySelector(".quiz__step--4");
-const step5 = document.querySelector(".quiz__step--5");
-const step6 = document.querySelector(".quiz__step--6");
-const step7 = document.querySelector(".quiz__step--7");
-
-const screen1 = document.querySelector(".quiz__screen1");
-const screen2 = document.querySelector(".quiz__screen2");
-const screen3 = document.querySelector(".quiz__screen3");
 
 start(btnStep2[0], step2, options1);
 prevStep(btnStep1, step2);
