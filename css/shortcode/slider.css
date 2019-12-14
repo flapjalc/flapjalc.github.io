@@ -19,7 +19,7 @@ NOTE: This is slider style file. All Header related style included in this file.
   z-index: 9;
 }
 .slide-text {
-  margin-left: 215px;
+  /* margin-left: 215px; */
   position: absolute;
   top: 27.5%;
   z-index: 99;
