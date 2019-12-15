@@ -843,7 +843,7 @@ selectorSavingError {
    position: relative;
 }
 .breadcrumbs.overlay::before {
-  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  background: rgba(0, 68, 185, 0.7) none repeat scroll 0 0;
 }
 .breadcrumbs-inner {
   position: relative;
@@ -1052,8 +1052,7 @@ selectorSavingError {
 ----------------------------------*/
 
 .map-area-inner {
-    float: left;
-    width: 55%;
+    width: 100%;
 }
 .map-img {
   float: left;

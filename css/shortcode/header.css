@@ -5,7 +5,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 
 --------------------------------------*/
 header.header {
-  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+  background: rgba(0, 68, 185, 0.4) none repeat scroll 0 0;
   position: absolute;
   width: 100%;
   z-index: 999;
