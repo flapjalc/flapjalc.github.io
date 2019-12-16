@@ -277,6 +277,18 @@ img{max-width: 100%}
   opacity: 1
 }
 
+.steps .learn-more a {
+  border: 1px solid #ffe200;
+  background-color: #ffe200;
+  color: #000000;
+  display: inline-block !important;
+  font-size: 16px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 28px;
+  text-transform: uppercase;
+}
+
 .steps-link {
   border: none;
 }
@@ -662,6 +674,9 @@ selectorSavingError {
 .slick-dots > li.slick-active a {
     color: #ffe200;
     font-size: 30px;
+}
+.about-is__testimonail {
+  padding-top: 0;
 }
 /*-----------------------
     12. Brand css
