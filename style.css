@@ -1643,6 +1643,15 @@ selectorSavingError {
   margin-bottom: 20px;
 }
 
+.check {
+  display: flex;
+  align-items: center;
+}
+
+.check > input {
+  width: auto;
+  margin-right: 5px;
+}
 
 
 
