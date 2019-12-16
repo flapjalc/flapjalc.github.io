@@ -504,11 +504,16 @@ selectorSavingError {
 }
 .contact-us-title {
   font-size: 30px;
+  line-height: 36px;
   font-weight: 700;
 }
 .contact-us-desc {
   font-size: 20px;
   line-height: 27px;
+}
+.contact-us-desc + p {
+  font-size: 18px;
+  line-height: 25px;
 }
 /*-----------------------
   10. Single blog css
@@ -862,12 +867,12 @@ selectorSavingError {
     15. Breadcrumbs css
 ---------------------------*/
 .breadcrumbs{
-   background: url(img/breadcrumbs.jpg)no-repeat scroll center center / cover;
+   background: url(img/1.jpeg)no-repeat scroll center center / cover;
    padding: 288px 0 25px;
    position: relative;
 }
 .breadcrumbs.overlay::before {
-  background: rgba(0, 68, 185, 0.7) none repeat scroll 0 0;
+  background: rgba(0, 119, 213, 0.8) none repeat scroll 0 0;
 }
 .breadcrumbs-inner {
   position: relative;
@@ -921,6 +926,9 @@ selectorSavingError {
 .video-view > a {
     color: #ffe200;
     font-size: 48px;
+}
+.contacts {
+  background: url(img/breadcrumbs.jpg)no-repeat scroll center center / cover;
 }
 /*-------------
     Our project css here
