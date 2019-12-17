@@ -1649,7 +1649,12 @@ selectorSavingError {
 
 .margb {
   margin-bottom: 20px;
-  width: 24%;
+}
+
+@media (min-width: 1200px) {
+  .margb {
+    width: 24%;
+  } 
 }
 
 .check {
