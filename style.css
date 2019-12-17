@@ -507,6 +507,11 @@ selectorSavingError {
   line-height: 36px;
   font-weight: 700;
 }
+@media (max-width: 768px) {
+  .contact-us-title {
+    font-size: 25px;
+  }
+}
 .contact-us-desc {
   font-size: 20px;
   line-height: 27px;
