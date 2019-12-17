@@ -513,7 +513,8 @@ selectorSavingError {
 }
 @media (max-width: 768px) {
   .contact-us-title {
-    font-size: 25px;
+    font-size: 22px;
+    line-height: 28px;
   }
 }
 .contact-us-desc {
