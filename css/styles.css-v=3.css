@@ -1,0 +1,1014 @@
+@charset "utf-8";
+/* CSS Document */
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face 
+{
+	font-family:"Ubuntu";
+	font-display:auto;
+	src:
+		url("../fonts/Ubuntu/Ubuntu-Regular.eot-")/*tpa=https://www.extinvalusa.com/fonts/Ubuntu/Ubuntu-Regular.eot?*/ format("eot"),
+		url("../fonts/Ubuntu/Ubuntu-Regular.woff")/*tpa=https://www.extinvalusa.com/fonts/Ubuntu/Ubuntu-Regular.woff*/ format("woff"),
+		url("../fonts/Ubuntu/Ubuntu-Regular.ttf")/*tpa=https://www.extinvalusa.com/fonts/Ubuntu/Ubuntu-Regular.ttf*/ format("truetype"),
+		url("../fonts/Ubuntu/Ubuntu-Regular.svg#Ubuntu")/*tpa=https://www.extinvalusa.com/fonts/Ubuntu/Ubuntu-Regular.svg#Ubuntu*/ format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+/* 
+	------
+	Inicio Clases Comunes
+	------
+*/
+*
+{
+	padding:0px;
+	margin:0px;	
+}
+body
+{
+	font-family:"Ubuntu";
+	background-color:#F7F7F7;
+}
+.centrarWeb
+{
+	width:960px;
+	margin:auto;	
+}
+.displayInline
+{
+	display:inline-block;	
+}
+.vMid
+{
+	vertical-align:middle;
+}
+.vTop
+{
+	vertical-align:top;	
+}
+.vBottom
+{
+	vertical-align:bottom;
+}
+.search
+{
+	background-image:url(../img/iconos/lupa.png)/*tpa=https://www.extinvalusa.com/img/iconos/lupa.png*/;
+	background-repeat:no-repeat;
+	background-position: right 5px center;
+	width:190px;
+	padding-right:5px;
+}
+input[type="text"],input[type="search"],textarea
+{
+	outline: none;
+	font-family:"Ubuntu";
+	color:#454B66;
+	font-size:14px;
+	border:1px solid #232B4C;
+	border-radius:6px;
+	padding-left:5px;
+	height:30px;
+	width:240px;
+	overflow:auto;
+	resize:none;
+}
+textarea
+{
+	width:346px;
+	height:115px;
+	padding-top:5px;
+	padding-right:4px;
+}
+input.error,textarea.error
+{
+	border:1px solid #E86C75;
+	color:#E86C75;
+}
+.right
+{
+	text-align:right;	
+}
+.size18
+{
+	font-size:18px;	
+}
+.relative
+{
+	position:relative;	
+}
+.marginT0
+{
+	margin-top:0px !important;	
+}
+::-webkit-input-placeholder {
+    color:    #454B66
+}
+:-moz-placeholder {
+   color:    #454B66
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:    #454B66
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    #454B66
+}
+.btnStandard
+{
+	background:#232B4C;
+	color:#FFF !important;
+	font-style: initial;
+	display:inline-block;
+    padding: 12px 30px;
+	text-decoration:none !important;	
+	font-size:16px;
+	border-radius:5px;
+	transition:all .7s ease;
+}
+
+.btnBlanco
+{
+	background:#FFFFFF;
+	color:#232B4C !important;
+}
+.btnBlanco:hover
+{
+	background:#FFFFFF !important;
+	color:#232B4C !important;
+}
+.seccion
+{
+	padding-top: 50px;	
+}
+.lineaSeccion
+{
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:25px;
+	width:60px;
+	border-top:2px solid #232B4C;	
+}
+.paddingSeccion
+{
+	padding:0px 10px;	
+}
+.textoSeccion
+{
+	font-size:15px;
+    word-wrap: break-word;
+	color:#202B4C;
+    text-align: justify;	
+}
+.tituloSubSeccion
+{
+	font-size:16px;
+	line-height:150%;
+	font-weight:bold;
+	color:rgb(32,43,76);
+	text-align:left;	
+}
+.left
+{
+	text-align:left;	
+}
+.center
+{
+	text-align:center;
+}
+.rellenoAzul
+{
+	background-color:rgb(35,43,76);	
+	font-size:20px;
+	line-height:120%;
+	font-weight:bold;
+	color:rgb(255,255,255);
+	text-align:left;
+	width:250px;
+	padding:10px;
+
+}
+/* 
+	------
+	Fin Clases Comunes
+	------
+*/
+
+/*
+	------
+	Inicio Header
+	------
+*/
+header 
+{
+    padding-top: 2px;
+	position:relative;
+}
+#header
+{
+	position:relative;
+}
+#buscadorHeader
+{
+	position:absolute;
+	right:0px;	
+}
+.frasePosicionamiento
+{
+    font-size: 18px;
+    margin-bottom: 13px;
+    width: 700px;
+    padding-top: 4px;
+	color:#232B4C;
+}
+.redesSociales a
+{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	background-repeat:no-repeat;
+}
+.facebook
+{
+	background-image:url(../img/redesSociales/facebook.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/facebook.png*/;
+}
+.facebook:hover
+{
+	background-image:url(../img/redesSociales/facebookHover.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/facebookHover.png*/;
+}
+.twitter
+{
+	background-image:url(../img/redesSociales/twitterHover.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/twitterHover.png*/;	
+}
+.twitter:hover
+{
+	background-image:url(../img/redesSociales/twitter.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/twitter.png*/;	
+}
+.googlePlus
+{
+	background-image:url(../img/redesSociales/googlePlus.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/googlePlus.png*/;
+}
+.googlePlus:hover
+{
+	background-image:url(../img/redesSociales/googlePlusHover.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/googlePlusHover.png*/;
+}
+.blogger
+{
+	background-image:url(../img/redesSociales/blogger.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/blogger.png*/;
+}
+.blogger:hover
+{
+	background-image:url(../img/redesSociales/bloggerHover.png)/*tpa=https://www.extinvalusa.com/img/redesSociales/bloggerHover.png*/;
+}
+.promotionHeader {
+    margin-left: 195px;
+}
+.certificado
+{
+	width:27px;
+	height:30px;
+    margin: 0px 70px;
+	background-image:url(../img/iconos/certificado.png)/*tpa=https://www.extinvalusa.com/img/iconos/certificado.png*/;
+}
+.certificado:hover
+{
+	background-image:url(../img/iconos/certificadoHover.png)/*tpa=https://www.extinvalusa.com/img/iconos/certificadoHover.png*/;
+}
+.shadowTop
+{
+	width:1186px;
+	margin:auto;
+}
+.cajaBanner
+{
+	width: 960px;
+	margin:auto;
+	margin-top:0px;
+	position:relative;
+	height:350px;
+}
+.cajaBanner .banner
+{
+	position:absolute;
+}
+.cajaBanner .banner.active
+{
+	z-index:3;	
+}
+.logo img{
+	height: 105px;
+}
+.textoBanner
+{
+	padding-top: 10px;
+    width: 500px;
+    height: 90px;
+    background-color: rgba(255,255,255,0.85);
+    position: absolute;
+    z-index: 999;
+    top: 250px;
+    left: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(32,43,76);
+    line-height: 120%;
+	font-weight: bold;
+}
+.shadowBanner
+{
+	width:742px;
+	margin:auto;
+	height:15px;	
+}
+.enlaceExtinval
+{
+	left: 550px;
+    position: absolute;
+    top: 235px;
+    z-index: 15;
+	
+}
+.enlaceExtinvalASIA
+{
+	left: 550px;
+    position: absolute;
+    top: 290px;
+    z-index: 15;
+	
+}
+.telefono
+{
+	font-size:15px;
+	line-height:100%;
+	color:rgb(33,43,76);
+	text-align:left;
+}
+#certificationTool
+{
+    z-index: 100;
+	position:absolute;
+	width:130px;
+	height:50px;
+	background-color:#232B4C;
+	text-align:center;
+	font-size:16px;
+	line-height:50px;
+	border-radius:5px;
+	color:#FFF;	
+	margin-left: 16px;
+    margin-top: 8px;
+	visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease;
+}
+.cuadrado {
+	position:absolute;
+	width: 20px; 
+	height: 20px; 
+	background: #232B4C;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+	z-index:3;
+    right: 40%;
+	top: -2px;
+}
+.certificado:hover + #certificationTool
+{
+	visibility: visible;
+    opacity: 1;
+    transition: all .7s ease;	
+}
+.txtCertification
+{
+	position:relative;
+	z-index:5;	
+}
+/*
+	------
+	Fin Header
+	------
+*/
+
+/*
+	------
+	Inicio Menu
+	------
+*/
+#menu
+{
+	font-size:0px;
+	padding: 0px;
+}
+#menu a
+{
+	width:100px;
+	height:45px;
+	background:#232B4C;
+	font-size:16px;
+	color:#FFF;
+	display:inline-block;
+	text-align:center;
+	text-decoration:none;
+	line-height:45px;	
+	transition:all .7s ease;
+}
+#menu a:hover,.btnStandard:hover,#menu a.btn_menu_seleccionado
+{
+	background:#646C95;	
+	transition:all .7s ease;
+}
+.contieneMenuPadre
+{
+    margin-left: 52px;	
+}
+.logo-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.contieneMenu
+{
+	margin-top:10px;	
+}
+.lineaSeparacion
+{
+	background:#646C95;
+	display:inline-block;
+	vertical-align:bottom;
+	width:1px;
+	height:45px;	
+}
+#mb_menuServicios.menuContainer a:hover
+{
+	text-decoration:underline;
+	color:rgb(255,255,255);
+}
+#mb_menuServicios.menuContainer td
+{
+	background: #646C95;	
+	font-size:16px;
+	line-height:180%;
+	color:rgb(255,255,255);
+	text-align:left;
+	padding:2px 0px;
+	padding-left:10px;
+}
+#mb_menuServicios.menuContainer td:hover
+{
+	background: #646C95;	
+}
+.menuContainer
+{
+	opacity:1 !important;
+	-webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.5) !important;
+	-moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.5) !important;
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.5) !important;
+}
+/*
+	------
+	Fin Menu
+	------
+*/
+/*
+	------
+	Inicio Home
+	------
+*/
+
+/* INICIO VALORACIONES */ 
+	.iconoPuntuacion, .iconoValoracion
+	{
+		width:30px;
+		height:30px;
+		display:inline-block;
+		margin:10px 5px;
+		font-size:35px;
+		color: #909090;
+	}
+	.iconoEstrella i.fa-star, .iconoPuntuacion i.fa-star.estrellaReposo, .iconoValoracion i.fa-star.estrellaReposo
+	{
+		background: #909090;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.iconoEstrella i.fa-star:hover, .iconoPuntuacion i.fa-star.estrellaSobre, .iconoValoracion i.fa-star.estrellaSobre
+	{
+		background: -webkit-linear-gradient(top, #FFCB2F, #FE941A);
+		background: linear-gradient(top, #FFCB2F, #FE941A);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.listaValoracionEstrellas li
+	{
+		margin:0px;
+		padding:0 2px;
+	}
+	.listaValoracionEstrellas.list-inline > li {
+    	display: inline-block;
+	}
+	.contienePromedioVotaciones
+	{
+		color: #858585;
+		font-size: 16px;
+	}
+	/* FIN VALORACIONES */
+#contenedorCaja
+{
+	width:960px;
+	height:120px;
+	background-color:#232B4C;
+	color:white;
+	font-size:25px;
+	text-align:center;
+	padding-bottom: 5px;
+}
+#contenedorCaja h2
+{
+	width:650px;
+	height:100%;
+}
+#contenedorCaja > div:nth-child(1)
+{
+	font-size:15px;	
+	width: 650px;
+	margin-top: 7px;
+}
+#contenedorCaja .tituloContenedor
+{
+    padding: 5px;	
+}
+#btnContenedorCaja
+{
+	margin-left:40px;
+	margin-top: 13px;
+}
+#marineService
+{
+	position:relative;
+	z-index:4;	
+    margin-top: 50px;
+    height: 423px;
+}
+#containerMarineService,#containerLaboratyServices
+{
+    width: 410px;
+    padding: 20px;
+    height: 260px;
+	position:absolute;
+	background-color:rgba(255,255,255,0.8);
+	z-index:5;
+	top: 65px;
+    right: 60px;
+	text-align:center;
+}
+#containerLaboratyServices
+{
+    height: 165px;
+    left: 280px;
+    position: absolute;
+    top: 15px;
+    width: 360px;
+}
+#containerLaboratyServices .textoContainer
+{
+    height: 52px;
+    line-height: 17px;
+    margin-top: 10px;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+#containerMarineService .textoContainer
+{ 
+	height:110px;
+	overflow:hidden;
+}
+.tituloContainer
+{
+	font-size:25px;
+	color:#212B4C;
+	font-weight: bold;	
+	line-height: 20px;
+}
+.textoContainer
+{
+	font-size:15px;
+	color:#212B4C;
+	line-height:150%;
+}
+/* Fin Home */
+
+/* Inicio About Us */
+.tituloSeccion
+{
+	font-size:30px;
+	color:rgb(33,43,76);
+	text-align:center;	
+}
+
+/* Fin About Us */
+
+
+
+
+/* Inicio Certifications */
+.contieneCertification img 
+{
+    margin: 15px 30px 10px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Fin Certifications */
+.tel-link{
+	color:#232B4C;
+	text-decoration: none;
+}
+.tel-link:hover{
+	text-decoration: underline;
+}
+/* Inicio Contacto */
+.formPolicy
+{
+	width:289px;
+	font-size:13px;
+	line-height:120%;
+	font-style:italic;
+	color:rgb(69,75,102);
+	text-align:left;
+	margin-left:15px;
+}
+#policy.error + label,#policy.error + label a
+{
+	color:#E86C75 !important;	
+}
+.formPolicy a
+{
+	text-decoration:none;
+	color:#454B66;
+}
+.formPolicy a:hover
+{
+	text-decoration:underline;	
+}
+.formPolicy label
+{
+	width:265px;	
+}
+.formName input
+{
+	margin-top:0px !important;	
+}
+.formComment 
+{
+    margin-left: 20px;
+}
+#formContact input[type="text"] 
+{
+    margin-top: 12px;
+}
+#btnEnviarForm
+{
+    margin-top: 48px;	
+}
+.contieneDireccion
+{
+	font-size:15px;
+	line-height:100%;
+	color:rgb(31,43,76);
+	text-align:left;	
+}
+.current_section_contact .seccion
+{
+	padding-right:0px;	
+}
+.informacionContacto
+{
+	width: 245px;	
+}
+.codigoQR
+{
+	padding:8px 0px;	
+}
+.mapaContacto
+{
+	width:701px;
+	height:285px;	
+}
+/* Fin Contacto */
+
+
+/* Inicio Servicios */
+
+#certificationsService
+{
+	margin-top:55px;	
+}
+#certificationsService img
+{
+	display:inline-block;
+	vertical-align:middle;	
+	margin:0px 30px;
+}
+
+/* Fin Servicios */
+
+/* Inicio detalle servicio */
+#contieneMenuServiciosyCitas
+{
+	width:270px;	
+}
+.contieneMenuServicios
+{
+	overflow:hidden;
+	margin-bottom:15px;	
+}
+.menuServicios
+{
+	list-style:none;
+	font-size:16px;
+	line-height:180%;
+	color:rgb(255,255,255);
+	text-align:left;
+	color:#222B4C;
+	background:#FFF;
+	text-transform:uppercase;
+	border:1px solid #646C95;
+}
+.menuServicios a
+{
+	text-decoration:none;
+	width:250px;
+	padding:10px;
+	display:block;
+	color:#222B4C;
+    border-top: 1px solid #222B4C;
+}
+.menuServicios a:nth-child(1) {
+    border-top: none;
+}
+.menuServicios a:hover,.servicioActivo
+{
+	background:#646C95;
+	color:#FFF !important;
+}
+#detalleServicio
+{
+	width:670px;
+	margin:auto;
+    margin-left: 15px;	
+}
+#frmQuote
+{
+	width:250px;
+	margin:auto;	
+}
+#frmQuote textarea
+{
+	width:236px;
+	height:120px;
+	margin-left:0px;
+	resize:vertical;
+}
+#frmQuote .formComment
+{
+	margin-left:0px;	
+}
+#frmQuote > div
+{
+	margin-top:15px;	
+}
+#frmQuote .formPolicy
+{
+	width:240px;
+	margin-left:0px;
+	margin-top:5px;	
+}
+#frmQuote .formPolicy label {
+    width: 215px;
+}
+.contieneCitas
+{
+	border:1px solid #646C95;
+}
+
+/* Fin detalle servicio */
+
+/* Inicio Search */
+.tituloBusqueda
+{
+	font-size:15px;
+	line-height:150%;
+	color:rgb(31,43,76);
+	text-align:left;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.resultadoBusqueda 
+{
+    margin-top: 25px;
+}
+.resultSearch
+{
+    margin: 0 0 25px 0;	
+}
+
+/* Fin Search */
+
+
+/* FOOTER */
+footer
+{
+	background:#232B4C;
+	height:70px;
+	text-align:center;
+	line-height:120%;
+	color:#FFF;
+	margin-top:50px;
+	font-size:14px;
+}
+.datosFooter
+{
+	font-size:14px;
+	padding-top: 20px;
+	font-style:italic;	
+}
+footer a
+{
+	text-decoration:none;
+	color:#FFF;	
+}
+footer a:hover
+{
+	text-decoration:underline;
+}
+#seccionLocalizacion
+{
+	margin-top:50px;	
+}
+/* FIN FOOTER */
+
+
+/* COOKIES */
+.bloqueLegalCookies
+{
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    color: #ffffff;
+    font-family: Lato Regular;
+    font-size: 16px;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+ position:relative;
+}
+.bloqueLegalCookies span
+{
+	margin: 0 5px;
+    display: block;
+}
+a
+{
+    color: rgb(0,99,133);	
+}
+.bloqueLegalCookies a
+{
+	margin: 0 5px;
+	color: white;
+	text-decoration: underline; 
+}
+a.bloqueLegalCookiesEnlaceMasInfo
+{
+	display: inline-block;
+	margin-top: 10px; 
+}
+.bloqueLegalCookies .bloqueLegalCookiesEnlaceAceptar {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Lato Bold;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 0;
+    min-width: 26px;
+    text-align: center;
+    text-decoration: none;
+}
+.bloqueLegalCookies .bloqueLegalCookiesEnlaceAceptar:hover
+{
+ text-decoration: underline;
+}
+/* FIN DE COOKIES*/
+
+/* SWEET PAGES */
+
+#imagenesServicios #imgsPeq
+{
+    height: 300px;
+	width: 244px;
+    margin-left: 20px;
+}
+#main {
+    position: relative;
+    width: 244px;
+	height: 100%;
+}
+#holder 
+{
+    width: 244px;
+    overflow: hidden;
+    position: relative;
+    font-size: 0px;
+    padding-top: 25px;
+}
+#holder li 
+{
+    background-color: #F4F4F4;
+    list-style: none outside none;
+    float: left;
+	display:inline-block;
+	vertical-align:top;
+    margin: 1px;
+}
+#imagenesAboutUs #main,#imagenesAboutUs #holder
+{
+	width:493px;	
+}
+#imagenesAboutUs #holder
+{
+	padding-top:25px;	
+}
+#imagenesAboutUs #holder li
+{
+    margin-left: 2px;	
+}
+#imagenesAboutUs #imgsPeq
+{
+    margin-left: 10px;
+}
+.clear{
+	clear:both;
+}
+.prev,.next
+{
+	width:31px;
+	height:31px;
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.prev
+{
+	background:url(../img/botones/reposo/btnAnt.png)/*tpa=https://www.extinvalusa.com/img/botones/reposo/btnAnt.png*/ no-repeat;
+	margin-right:5px;
+}
+.prev:hover
+{
+	background:url(../img/botones/sobre/btnAnt.png)/*tpa=https://www.extinvalusa.com/img/botones/sobre/btnAnt.png*/ no-repeat;
+}
+.next
+{
+	background:url(../img/botones/reposo/btnSig.png)/*tpa=https://www.extinvalusa.com/img/botones/reposo/btnSig.png*/ no-repeat;	
+}
+.next:hover
+{
+	background:url(../img/botones/sobre/btnSig.png)/*tpa=https://www.extinvalusa.com/img/botones/sobre/btnSig.png*/ no-repeat;		
+}
+.contieneBotones 
+{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    z-index: 99;
+}
+.shadowServicio
+{
+	position:absolute;
+    bottom: -23px;	
+    left: 0px;
+}
+#imagenesServicios
+{
+	margin-top:50px;	
+}
+#contieneHeaderTop
+{
+	background:#FFF;	
+}
+#laboratyServices
+{
+	background:url(../img/laboratoryServices.png)/*tpa=https://www.extinvalusa.com/img/laboratoryServices.png*/ no-repeat top center;
+	width:960px;
+	height:235px;
+	margin-top: 50px;
+	position:relative;
+}
+.enlaceDescarga img
+{
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+
+
+
+
+
